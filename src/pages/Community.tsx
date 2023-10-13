@@ -10,7 +10,7 @@ import comCard2 from "../assets/comCard2.svg";
 
 const Community: React.FC = () => {
   return (
-    <section className="relative flex min-h-[calc(100vh-80px)] w-full flex-col items-center justify-center gap-32 bg-black p-32">
+    <section className="relative flex min-h-[calc(100vh-80px)] w-full flex-col items-center justify-center gap-32 bg-black px-5 py-12 lg:p-32">
       <h2 className="text-center text-[54px] font-extrabold leading-[65.35px]">
         <span>Join an Elite</span>{" "}
         <span className="text-[#F47B20]"> Community</span>{" "}

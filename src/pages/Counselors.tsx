@@ -3,7 +3,7 @@ import counselorImage from "../assets/counselorImage.svg";
 
 const Counselors: React.FC = () => {
   return (
-    <section className="relative flex w-full flex-col items-center justify-center gap-32 bg-black p-32 py-10">
+    <section className="relative flex w-full flex-col items-center justify-center gap-32 bg-black px-5 py-10 lg:p-32">
       <h2 className="max-w-[786px] text-center text-[54px] font-extrabold leading-[65.35px]">
         <span>What other</span>{" "}
         <span className="text-[#F47B20]">Counselors</span>{" "}

@@ -6,7 +6,7 @@ import AccordionFaQ from "../components/AccordionFaQ";
 
 const FAQ: React.FC = () => {
   return (
-    <section className="relative flex min-h-screen w-full flex-col items-center justify-center gap-20 bg-white px-32 py-20 text-black">
+    <section className="relative flex min-h-screen w-full flex-col items-center justify-center gap-20 bg-white px-5 py-20 text-black lg:px-32">
       <h2 className="max-w-[786px] text-center text-[54px] font-extrabold leading-[65.35px]">
         <span>30 Day Access To The OFA Challenge</span>{" "}
         <span className="text-[#F47B20]">Facebook Group</span>

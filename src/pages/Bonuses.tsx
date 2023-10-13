@@ -5,8 +5,8 @@ import shapeTwo from "../assets/icons/geometryShape2.svg";
 
 const Bonuses: React.FC = () => {
   return (
-    <section className="relative flex min-h-screen w-full flex-col items-center justify-center gap-20 bg-white px-32 py-20 pb-[300px] text-black">
-      <h2 className="text-[54px] font-extrabold leading-[65.35px]">
+    <section className="relative flex min-h-screen w-full flex-col items-center justify-center gap-20 bg-white px-5 py-20 pb-[300px] text-black lg:px-32">
+      <h2 className="text-center text-[54px] font-extrabold leading-[65.35px]">
         <span>Counselor Exclusive</span>{" "}
         <span className="text-[#F47B20]">Bonuses</span>
       </h2>

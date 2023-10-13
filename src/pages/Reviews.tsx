@@ -9,7 +9,7 @@ const Reviews: React.FC = () => {
     alert("Button Clicked!");
   };
   return (
-    <section className="flex h-full w-full flex-col items-center gap-10 bg-black px-20 py-32">
+    <section className="flex h-full w-full flex-col items-center gap-10 bg-black px-5 py-32 lg:px-20">
       <div className="flex flex-col items-center justify-center gap-2">
         <div className="flex items-center justify-center gap-5">
           <img

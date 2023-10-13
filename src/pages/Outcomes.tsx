@@ -7,7 +7,7 @@ import bgLines from "../assets/bgLines.svg";
 
 const Outcomes: React.FC = () => {
   return (
-    <section className="relative flex min-h-[calc(100vh-80px)] w-full flex-col-reverse items-center justify-center gap-32 bg-black px-32 py-12 lg:flex-row">
+    <section className="relative flex min-h-[calc(100vh-80px)] w-full flex-col-reverse items-center justify-center gap-32 bg-black px-5 py-12 lg:flex-row lg:px-32">
       {/* left side */}
       <div className="flex flex-col items-start justify-center gap-4">
         <h2 className="text-[54px] font-extrabold leading-[65.35px]">

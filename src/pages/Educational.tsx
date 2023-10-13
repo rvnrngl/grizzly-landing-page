@@ -9,7 +9,7 @@ const Educational: React.FC = () => {
     alert("Button Clicked!");
   };
   return (
-    <section className="relative flex min-h-screen w-full flex-col items-center justify-start gap-20 bg-black px-32 pt-[200px]">
+    <section className="relative flex min-h-screen w-full flex-col items-center justify-start gap-20 bg-black px-5 pt-[200px] lg:px-32">
       <h2 className="text-center text-[54px] font-extrabold leading-[65.35px]">
         <span>Why Don’t Other Educational Experts</span>{" "}
         <span className="text-[#F47B20]">Guarantee</span>{" "}
@@ -88,7 +88,7 @@ const Educational: React.FC = () => {
       <img
         src={lionLogo}
         alt="lion logo"
-        className="absolute -top-[10%] left-1/2 -translate-x-1/2 transform"
+        className="absolute -top-[7%] left-1/2 -translate-x-1/2 transform lg:-top-[10%]"
       />
     </section>
   );

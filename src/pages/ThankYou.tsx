@@ -5,7 +5,7 @@ import qoute from "../assets/icons/qoute.svg";
 
 const ThankYou: React.FC = () => {
   return (
-    <section className="flex h-full w-full flex-col items-center gap-10 bg-black p-32">
+    <section className="flex h-full w-full flex-col items-center gap-10 bg-black px-5 py-12 lg:p-32">
       <h2 className="max-w-[786px] text-center text-[54px] font-extrabold leading-[65.35px]">
         <span>Your Student's Parents Will</span>{" "}
         <span className="text-[#F47B20]">Thank You!</span>

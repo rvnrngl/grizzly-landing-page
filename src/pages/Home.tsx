@@ -7,7 +7,7 @@ const Home: React.FC = () => {
     alert("Button Clicked");
   };
   return (
-    <section className="flex min-h-[calc(100vh-80px)] w-full flex-col-reverse items-center justify-center gap-10 bg-black px-32 py-10 lg:flex-row lg:py-0">
+    <section className="flex min-h-[calc(100vh-80px)] w-full flex-col-reverse items-center justify-center gap-10 bg-black px-5 py-10 lg:flex-row lg:px-32 lg:py-0">
       <div className="max-w-[400px] overflow-hidden">
         <img src={manImage} alt="man" className="w-full object-cover" />
       </div>
