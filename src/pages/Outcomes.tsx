@@ -10,7 +10,7 @@ const Outcomes: React.FC = () => {
     <section className="relative flex min-h-[calc(100vh-80px)] w-full flex-col-reverse items-center justify-center gap-32 bg-black px-5 py-12 lg:flex-row lg:px-32">
       {/* left side */}
       <div className="flex flex-col items-start justify-center gap-4">
-        <h2 className="text-[54px] font-extrabold leading-[65.35px]">
+        <h2 className="w-full text-center text-3xl font-extrabold lg:text-[54px] lg:leading-[65.35px]">
           Outcomes
         </h2>
         <ul className="flex flex-col items-start justify-center gap-2">
@@ -52,7 +52,7 @@ const Outcomes: React.FC = () => {
           <img
             src={qoute}
             alt="qoute logo"
-            className="absolute -left-12 -top-4"
+            className="absolute -left-12 -top-4 hidden md:block"
           />
           <h5 className="text-[20px] leading-[24.2px] text-gray-400">
             Aliquam quis tincidunt lectus, vitae aliquam

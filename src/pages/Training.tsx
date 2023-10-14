@@ -5,7 +5,7 @@ import trainingImage from "../assets/trainingImage.svg";
 const Training: React.FC = () => {
   return (
     <section className="flex min-h-[calc(100vh-80px)] w-full flex-col items-center justify-center gap-20 bg-black px-5 py-12 lg:p-32">
-      <h2 className=" text-center text-[54px] font-extrabold leading-[65.35px]">
+      <h2 className="text-center text-3xl font-extrabold lg:text-[54px] lg:leading-[65.35px]">
         <span>Your Grizzly Elite</span>{" "}
         <span className="text-[#F47B20]">Training Includes</span>
       </h2>

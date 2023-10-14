@@ -11,7 +11,7 @@ const Payment: React.FC = () => {
   };
   return (
     <section className="relative flex min-h-screen w-full flex-col items-center justify-center gap-20 bg-white px-5 py-20 text-black lg:px-32">
-      <h2 className=" text-center text-[54px] font-extrabold leading-[65.35px]">
+      <h2 className="text-center text-3xl font-extrabold lg:text-[54px] lg:leading-[65.35px]">
         <span>Let's Begin Your</span>{" "}
         <span className="text-[#F47B20]">Training</span>
       </h2>
@@ -103,7 +103,9 @@ const Payment: React.FC = () => {
       </div>
       {/* payment details */}
       <div className="flex flex-col items-center justify-center gap-10">
-        <h2 className="text-[54px] font-extrabold leading-[65px]">Payment</h2>
+        <h2 className="text-3xl font-extrabold lg:text-[54px] lg:leading-[65px]">
+          Payment
+        </h2>
         <PaymentCard />
       </div>
     </section>

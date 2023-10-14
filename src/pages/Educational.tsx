@@ -9,8 +9,8 @@ const Educational: React.FC = () => {
     alert("Button Clicked!");
   };
   return (
-    <section className="relative flex min-h-screen w-full flex-col items-center justify-start gap-20 bg-black px-5 pt-[200px] lg:px-32">
-      <h2 className="text-center text-[54px] font-extrabold leading-[65.35px]">
+    <section className="relative flex min-h-screen w-full flex-col items-center justify-start gap-20 bg-black px-5 pb-10 pt-[200px] lg:px-32">
+      <h2 className="text-center text-3xl font-extrabold lg:text-[54px] lg:leading-[65.35px]">
         <span>Why Don’t Other Educational Experts</span>{" "}
         <span className="text-[#F47B20]">Guarantee</span>{" "}
         <span>
